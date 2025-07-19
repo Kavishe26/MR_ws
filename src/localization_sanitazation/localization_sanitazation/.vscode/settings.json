@@ -1,0 +1,41 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/kavishe/ros2_ws/build/turtlebot3_teleop",
+        "/home/kavishe/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/build/turtlebot3_example",
+        "/home/kavishe/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/build/nav2_simple_commander",
+        "/home/kavishe/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/build/map_maker",
+        "/home/kavishe/ros2_ws/install/map_maker/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/build/localization_sanitazation",
+        "/home/kavishe/ros2_ws/install/localization_sanitazation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kavishe/ros2_ws/build/turtlebot3_teleop",
+        "/home/kavishe/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/build/turtlebot3_example",
+        "/home/kavishe/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/build/nav2_simple_commander",
+        "/home/kavishe/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/kavishe/ros2_ws/build/map_maker",
+        "/home/kavishe/ros2_ws/install/map_maker/lib/python3.10/site-packages",
+        "/home/kavishe/ros2_ws/build/localization_sanitazation",
+        "/home/kavishe/ros2_ws/install/localization_sanitazation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

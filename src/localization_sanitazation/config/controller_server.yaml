@@ -1,0 +1,31 @@
+controller_server:
+  ros__parameters:
+    use_sim_time: true
+    controller_plugins: ["FollowPath"]
+
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      
+      # Robot velocity constraints
+      max_vel_x: 0.22
+      min_vel_x: 0.05
+      max_vel_theta: 1.0
+      min_vel_theta: -1.0
+      max_accel_x: 2.5
+      max_accel_theta: 3.2
+
+      # Simulation and path tracking
+      sim_time: 1.5
+      vx_samples: 20
+      vtheta_samples: 40
+      linear_granularity: 0.05
+      angular_granularity: 0.025
+
+      # Trajectory scoring
+      goal_distance_bias: 24.0
+      path_distance_bias: 32.0
+      obstacle_cost_scale: 0.05
+      forward_point_distance: 0.325
+
+      # Critics for avoiding collisions and improving safety
+      critics: ["ObstacleFootprint", "PathAlign", "GoalAlign", "PreferForward"]

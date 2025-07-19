@@ -1,0 +1,10 @@
+build/
+install/
+log/
+*.pyc
+__pycache__/
+src/navigation2/
+src/turtlebot3/
+src/turtlebot3_msgs/
+src/turtlebot3_simulations/
+
